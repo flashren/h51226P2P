@@ -1,0 +1,38 @@
+//公共变量
+@colorWhite:#fff;
+@font18: 18px;
+@font24: 24px;
+@colorHoverBlue:#09d;
+
+//重置顶部连接
+.navbar-inverse .navbar-nav>li>a{
+    color: @colorWhite;
+}
+
+//顶部电话
+.navbar-inverse .navbar-brand{
+    color: @colorWhite;
+    font-size: @font24;
+    font-style: italic;
+    padding: 10px 15px;
+}
+
+.navbar{
+    margin-bottom: 0px;
+}
+
+.navbar-default .navbar-nav>li>a{
+    line-height: 60px;
+    font-size: @font18;
+    padding: 10px 20px;
+}
+
+.navbar-brand{
+    padding: 24px 15px;
+}
+
+
+.navbar-default .navbar-nav>li>a:hover{
+    color: @colorHoverBlue;
+    background-color: #efefef;
+}
